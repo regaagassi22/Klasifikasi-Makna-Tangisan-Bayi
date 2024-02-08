@@ -1,0 +1,34 @@
+1 Open the Registry Editor by typing "regedit" into the Start menu search bar and pressing Enter.
+
+2 Navigate to the key "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell."
+
+3 Right-click on the key and select "Permissions."
+
+4 In the Permissions dialog box, select the user account that you are currently logged in with.
+
+5 In the "Permissions for [user]" section, make sure that the "Full Control" box is checked.
+
+6 Click "Apply" and then "OK" to save the changes.
+
+7 Administrator Windows PowerShell
+
+8 Enter Set-ExecutionPolicy -Scope CurrentUser
+
+9 Enter RemoteSigned [Y]
+
+10 PowerShell
+
+11 Enter Set-ExecutionPolicy RemoteSigned [Y] 
+
+
+
+---------------------------------------------------
+
+
+1 Cmd "py -3 -m pip install virtualenv" || python3.10
+
+2 New Terminal on folder "py -3 -m venv venv" || "py -3 -m venv [nama folder]"  	
+
+3 Terminal on folder "venv\Scripts\activate" || "[nama folder]\Scripts\activate"
+
+4 python app.py
